@@ -1,8 +1,6 @@
 # Agendalive-app
 
-Front-end da aplicação (agendalive-api)
-
-- Interface construída com __Angular 9__  do curso da Michelli Brito
+## Front-end da aplicação (agendalive-api)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
