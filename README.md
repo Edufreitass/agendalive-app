@@ -1,4 +1,4 @@
-# Agendalive
+# Agendalive-app
 
 Front-end da aplicação (agendalive-api)
 
