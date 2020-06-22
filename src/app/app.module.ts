@@ -11,6 +11,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatCardModule} from '@angular/material/card';
 import { LiveListComponent } from './views/home/live-list/live-list.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 // Módulo raiz da aplicação!
@@ -24,6 +25,7 @@ import { LiveListComponent } from './views/home/live-list/live-list.component';
     LiveListComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
@@ -31,7 +33,7 @@ import { LiveListComponent } from './views/home/live-list/live-list.component';
     MatIconModule,
     MatButtonModule,
     MatTabsModule,
-    MatCardModule
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
